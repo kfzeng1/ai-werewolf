@@ -1,7 +1,6 @@
 # AI Werewolf
 
-AI Werewolf 是一个 React + Vite + Capacitor 的狼人杀观战桌。项目当前只保留网页端、移动端、游戏引擎、DeepSeek 通信代理和规则兜底逻辑；训练数据、训练脚本和本地小模型运行分支已经移出主项目。
-
+AI Werewolf 是一个 React + Vite + Capacitor 的狼人杀观战桌。项目当前只保留网页端、移动端、游戏引擎、DeepSeek 通信代理和规则兜底逻辑；
 AI 玩家按时间线串行行动：公开发言、投票、夜间技能、警长流程、胜负结算和主持人复盘都会写入同一套房间文件。每个角色只能读取自己权限内的文件，公开信息和私有信息分离。
 
 ## 功能范围
@@ -79,11 +78,7 @@ npm run build
 - `VITE_DEEPSEEK_API_KEY`：移动端可选构建环境变量；不要写入源码。
 - `dist/`、Android build 目录、日志和测试结果都不纳入源码。
 
-千问模型已移出项目目录，保存在：
 
-```text
-/home/zkf/ai-werewolf-external-models/Qwen3-1.7B
-```
 
 ## 开发原则
 
